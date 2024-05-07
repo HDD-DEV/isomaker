@@ -3,6 +3,7 @@ echo "updating repositories"
 sudo apt update
 echo "installing dependencies"
 sudo apt install grub grub-common mtools xorriso wget curl git -y
+sudo apt install grub2 grub2-common mtools xorriso wget curl git -y
 sleep 2
 echo "Downloading isomaker"
 cd ~/
